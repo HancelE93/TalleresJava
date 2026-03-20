@@ -4,9 +4,10 @@ public class Billetera {
     String titular;
     boolean cuentaActiva = true;
 
+  
     public Billetera(String titular, double saldoInicial) {
         this.titular = titular;
-        this.saldo = saldoInicial;
+        this.balanceTotal = saldoInicial;
     }
 
     public void transferir(double monto) {
