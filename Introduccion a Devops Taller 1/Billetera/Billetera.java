@@ -2,6 +2,7 @@ public class Billetera {
     double saldo;
     String moneda=USD;
     String titular;
+    boolean cuentaActiva = true;
 
     public Billetera(String titular, double saldoInicial) {
         this.titular = titular;
