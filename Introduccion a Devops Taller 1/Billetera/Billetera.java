@@ -1,6 +1,6 @@
 public class Billetera {
     double balanceTotal;
-    String moneda = USD;
+    String moneda = "USD";
     String titular;
     boolean cuentaActiva = true;
 
