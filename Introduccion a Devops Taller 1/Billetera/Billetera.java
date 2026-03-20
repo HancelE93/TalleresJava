@@ -1,18 +1,19 @@
 public class Billetera {
-    double saldo;
+    double balanceTotal;
     String moneda="USD";
     String titular;
+    boolean cuentaActiva = true;
 
-    public Billetera(String titular, double saldoInicial) {
+    public BilleteraVirtual(String titular, double saldoInicial) {
         this.titular = titular;
-        this.saldo = saldoInicial;
+        this.balanceTotal = saldoInicial;
     }
 
     public void transferir(double monto) {
-        saldo = saldo - monto;
+        balanceTotal = balanceTotal - monto;
     }
 
     public void mostrarSaldo() {
-        System.out.println("Saldo de " + titular + ": $" + saldo);
+        System.out.println("Saldo de " + titular + ": $" + balanceTotal);
     }
 }
