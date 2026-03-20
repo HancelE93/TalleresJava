@@ -9,6 +9,8 @@ public class Main {
 
         miBilletera.mostrarSaldo();
         miBilletera.transferir(20.0);
+        miBilletera.transferir(30.0);
+        miBilletera.transferir(10.0);
         miBilletera.mostrarSaldo();
     }
 }

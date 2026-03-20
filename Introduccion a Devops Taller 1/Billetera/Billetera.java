@@ -17,12 +17,12 @@ public class Billetera {
         }
         System.out.println("Iniciando transaccion...");
 
-        System.out.println("Iniciando transaccion...")
+        System.out.println("Iniciando transaccion...");
         balanceTotal = balanceTotal - monto;
         Systemo.out.println("Transferencia exitosa de $: " + monto);
     }
 
     public void mostrarSaldo() {
-        System.out.println("Saldo de " + titular + ": $" + saldo);
+        System.out.println("Saldo de " + titular + ": $" + balanceTotal);
     }
 }
