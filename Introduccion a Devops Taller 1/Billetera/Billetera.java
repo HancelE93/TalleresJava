@@ -1,5 +1,6 @@
 public class Billetera {
     double saldo;
+    String moneda=USD;
     String titular;
 
     public Billetera(String titular, double saldoInicial) {
