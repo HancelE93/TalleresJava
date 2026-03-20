@@ -11,7 +11,6 @@ public class Main {
         miBilletera.transferir(20.0);
         miBilletera.transferir(30.0);
         miBilletera.transferir(10.0);
-        miBilletera.transferir(1.0);
         miBilletera.mostrarSaldo();
     }
 }
