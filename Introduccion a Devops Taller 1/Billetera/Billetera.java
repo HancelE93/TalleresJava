@@ -10,7 +10,9 @@ public class Billetera {
     }
 
     public void transferir(double monto) {
+        System.out.println("Iniciando transaccion...")
         balanceTotal = balanceTotal - monto;
+        Systemo.out.println("Transferencia exitosa de $: "+ monto);
     }
 
     public void mostrarSaldo() {
